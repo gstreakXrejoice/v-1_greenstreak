@@ -1,0 +1,96 @@
+---
+format_version: '11'
+default_step_lib_source: 'https://github.com/bitrise-io/bitrise-steplib.git'
+project_type: react-native
+app:
+  envs:
+  - FASTLANE_XCODE_LIST_TIMEOUT: '120'
+  - opts:
+      is_expand: false
+    FASTLANE_WORK_DIR: .
+  - opts:
+      is_expand: false
+    FASTLANE_LANE: build_android_ci
+workflows:
+  primary:
+    steps:
+    - activate-ssh-key@4:
+        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+    - git-clone@6: {}
+    - cache-pull@2:
+        inputs:
+        - workdir: ''
+    - bundler@0: {}
+    - script@1:
+        inputs:
+        - content: |-
+            #!/bin/bash
+            set -ex
+            RBENV_DIR="`cd $(rbenv which ruby)/../..;pwd`"
+            echo "Gem cache directory: $RBENV_DIR"
+            envman add --key GEM_CACHE_PATH --value $RBENV_DIR
+    - yarn@0:
+        inputs:
+        - cache_local_deps: 'yes'
+    - install-missing-android-tools@3:
+        inputs:
+        - ndk_version: 20.1.5948944
+        - gradlew_path: ./android/gradlew
+    - fastlane@3:
+        inputs:
+        - lane: 'build_android env:"qa"'
+        is_always_run: true
+        title: Build Android
+    - deploy-to-bitrise-io@2:
+        inputs:
+        - notify_email_list: >-
+            c.gomez@gbh.com.do,r.espino@gbh.com.do,n.giraldo@gbh.com.do,j.taravine@gbh.com.do
+        - deploy_path: ./android/app/build/outputs/apk/qa/release/app-qa-release.apk
+        title: Deploy Android APK
+        is_always_run: false
+    - cocoapods-install@2:
+        inputs:
+        - source_root_path: ./ios
+    - cache-push@2:
+        inputs:
+        - cache_paths: |-
+            ./
+            $GEM_CACHE_PATH
+    - fastlane-match@0:
+        inputs:
+        - type: adhoc
+        - git_url: 'git@github.com:greenstreak/mobile-app-ios-certificates.git'
+        - decrypt_password: $MATCH_PASSWORD
+        - git_branch: master
+        - app_id: co.gstreak.app.qa
+        - team_id: 78G96GCMYE
+    - fastlane@3:
+        inputs:
+        - lane: 'build_ios_ci env:"qa"'
+        title: Build iOS
+    - deploy-to-bitrise-io@2:
+        inputs:
+        - is_enable_public_page: 'false'
+        - notify_email_list: >-
+            c.gomez@gbh.com.do,r.espino@gbh.com.do,n.giraldo@gbh.com.do,j.taravine@gbh.com.do
+        - deploy_path: ./greenstreak.ipa
+        title: Deploy iOS ipa
+        is_always_run: false
+    - comment-on-github-pull-request@0:
+        inputs:
+        - body: >-
+            To install the build please go to: https://app.bitrise.io/build/ and
+            go to the artifacts section of the build
+        - personal_access_token: $GITHUB_TOKEN
+        is_always_run: false
+    - slack@3:
+        inputs:
+        - webhook_url: $SLACK_WEBHOOK
+        - text: ''
+meta:
+  bitrise.io:
+    stack: osx-xcode-13.4.x
+    machine_type_id: g2.4core
+trigger_map:
+- pull_request_source_branch: '*'
+  workflow: primary
