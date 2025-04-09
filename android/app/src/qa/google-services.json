@@ -1,0 +1,371 @@
+{
+  "project_info": {
+    "project_number": "501225490775",
+    "firebase_url": "https://greenstreak-e1efd.firebaseio.com",
+    "project_id": "greenstreak-e1efd",
+    "storage_bucket": "greenstreak-e1efd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501225490775:android:09a7d0b14959223fea1612",
+        "android_client_info": {
+          "package_name": "co.gstreak.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501225490775-ffrurh9gftloe0sgomhkcn2hqc93claa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3So7n1Oaq9GoJMbVEKU9i3HAZUu2Gv_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501225490775-ffrurh9gftloe0sgomhkcn2hqc93claa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "501225490775-056telbjtd94s0tf4f0fal1rq7dbadvp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.gstreak.app.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501225490775:android:0bb1b8d6f8766d77ea1612",
+        "android_client_info": {
+          "package_name": "co.gstreak.app.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501225490775-ffrurh9gftloe0sgomhkcn2hqc93claa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3So7n1Oaq9GoJMbVEKU9i3HAZUu2Gv_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501225490775-ffrurh9gftloe0sgomhkcn2hqc93claa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "501225490775-056telbjtd94s0tf4f0fal1rq7dbadvp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.gstreak.app.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501225490775:android:16b6b439a038b9a8ea1612",
+        "android_client_info": {
+          "package_name": "co.gstreak.app.qa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501225490775-ffrurh9gftloe0sgomhkcn2hqc93claa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3So7n1Oaq9GoJMbVEKU9i3HAZUu2Gv_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501225490775-ffrurh9gftloe0sgomhkcn2hqc93claa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "501225490775-056telbjtd94s0tf4f0fal1rq7dbadvp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.gstreak.app.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501225490775:android:d44c95a1ab897acaea1612",
+        "android_client_info": {
+          "package_name": "co.gstreak.koalabounce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501225490775-ffrurh9gftloe0sgomhkcn2hqc93claa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3So7n1Oaq9GoJMbVEKU9i3HAZUu2Gv_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501225490775-ffrurh9gftloe0sgomhkcn2hqc93claa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "501225490775-056telbjtd94s0tf4f0fal1rq7dbadvp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.gstreak.app.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501225490775:android:3291ae784d84fd0aea1612",
+        "android_client_info": {
+          "package_name": "co.gstreak.koalabounce.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501225490775-ffrurh9gftloe0sgomhkcn2hqc93claa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3So7n1Oaq9GoJMbVEKU9i3HAZUu2Gv_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501225490775-ffrurh9gftloe0sgomhkcn2hqc93claa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "501225490775-056telbjtd94s0tf4f0fal1rq7dbadvp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.gstreak.app.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501225490775:android:cfb740f9c107d88aea1612",
+        "android_client_info": {
+          "package_name": "co.gstreak.koalabounce.qa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501225490775-ffrurh9gftloe0sgomhkcn2hqc93claa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3So7n1Oaq9GoJMbVEKU9i3HAZUu2Gv_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501225490775-ffrurh9gftloe0sgomhkcn2hqc93claa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "501225490775-056telbjtd94s0tf4f0fal1rq7dbadvp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.gstreak.app.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501225490775:android:8c1c88b32342da26ea1612",
+        "android_client_info": {
+          "package_name": "com.gbh.greenstreak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501225490775-ffrurh9gftloe0sgomhkcn2hqc93claa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3So7n1Oaq9GoJMbVEKU9i3HAZUu2Gv_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501225490775-ffrurh9gftloe0sgomhkcn2hqc93claa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "501225490775-056telbjtd94s0tf4f0fal1rq7dbadvp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.gstreak.app.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501225490775:android:ac272368112630c9ea1612",
+        "android_client_info": {
+          "package_name": "com.gbh.koalajump"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501225490775-ffrurh9gftloe0sgomhkcn2hqc93claa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3So7n1Oaq9GoJMbVEKU9i3HAZUu2Gv_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501225490775-ffrurh9gftloe0sgomhkcn2hqc93claa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "501225490775-056telbjtd94s0tf4f0fal1rq7dbadvp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.gstreak.app.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501225490775:android:3308287cd234bc6cea1612",
+        "android_client_info": {
+          "package_name": "net.greenstreak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501225490775-ffrurh9gftloe0sgomhkcn2hqc93claa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3So7n1Oaq9GoJMbVEKU9i3HAZUu2Gv_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501225490775-ffrurh9gftloe0sgomhkcn2hqc93claa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "501225490775-056telbjtd94s0tf4f0fal1rq7dbadvp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.gstreak.app.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501225490775:android:bfbc63d8956c3114ea1612",
+        "android_client_info": {
+          "package_name": "net.greenstreak.development"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501225490775-ffrurh9gftloe0sgomhkcn2hqc93claa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3So7n1Oaq9GoJMbVEKU9i3HAZUu2Gv_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501225490775-ffrurh9gftloe0sgomhkcn2hqc93claa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "501225490775-056telbjtd94s0tf4f0fal1rq7dbadvp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.gstreak.app.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
